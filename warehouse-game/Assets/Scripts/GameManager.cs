@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
 
     private void SpawnBox() {
         if (Random.value >= 0.1f) return;
-        Instantiate(boxPrefab, boxPositions[Random.Range(0, 6)], Quaternion.identity);
+        Instantiate(boxPrefab, boxPositions[Random.Range(0, 3)], Quaternion.identity);
     }
 
     public void BoxDestroyed() => print("L BOZO YOUR BOX FELL OFF");

@@ -2,12 +2,22 @@
 
 public class Box : MonoBehaviour
 {
-    public enum BoxColor { Red, Yellow, Green, Purple, Orange, Blue };
+    [System.Serializable]
+    public class BoxVariant {
+        public BoxColor boxColor;
+        public Sprite[] sprites;
+    }
+    public enum BoxColor { Blue, Yellow, Red };
+    public BoxVariant[] boxVariants = new BoxVariant[3];
+    public Vector2[] sizes;
+    [Space]
     public BoxColor boxColor;
-    public Sprite[] Sprites;
 
     void Awake() {
-        boxColor = (BoxColor)Random.Range(0, 6);
-        GetComponent<SpriteRenderer>().sprite = Sprites[(int)boxColor];
+        boxColor = (BoxColor)Random.Range(0, 3);
+        var sprites = boxVariants[(int)boxColor].sprites;
+        int index = Random.Range(0, sprites.Length);
+        GetComponent<SpriteRenderer>().sprite = sprites[index];
+        GetComponent<BoxCollider2D>().size = sizes[index];
     }
 }

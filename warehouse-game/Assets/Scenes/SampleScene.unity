@@ -658,11 +658,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: ConveyorBelt (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 8908913469901986686, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
-        type: 3}
-      propertyPath: Speed
-      value: -2.5
-      objectReference: {fileID: 0}
     - target: {fileID: 8908913469901986687, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
         type: 3}
       propertyPath: m_RootOrder
@@ -738,11 +733,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: ConveyorBelt (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 8908913469901986686, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
-        type: 3}
-      propertyPath: Speed
-      value: -2.5
-      objectReference: {fileID: 0}
     - target: {fileID: 8908913469901986687, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
         type: 3}
       propertyPath: m_RootOrder
@@ -817,11 +807,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ConveyorBelt
-      objectReference: {fileID: 0}
-    - target: {fileID: 8908913469901986686, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
-        type: 3}
-      propertyPath: Speed
-      value: -2.5
       objectReference: {fileID: 0}
     - target: {fileID: 8908913469901986687, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
         type: 3}

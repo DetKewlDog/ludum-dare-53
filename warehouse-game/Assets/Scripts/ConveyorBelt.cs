@@ -13,7 +13,7 @@ public class ConveyorBelt : MonoBehaviour
     private void FixedUpdate() {
         if (!IsActive) return;
         originalPos = pos = rb.position;
-        pos.x += Speed * Time.deltaTime;
+        pos.x -= Speed * Time.deltaTime;
         rb.position = pos;
         rb.MovePosition(originalPos);
     }

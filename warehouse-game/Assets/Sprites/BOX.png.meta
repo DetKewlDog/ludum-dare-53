@@ -20,6 +20,15 @@ TextureImporter:
   - first:
       213: -4731162396292114599
     second: BOX_5
+  - first:
+      213: -1048049836501615307
+    second: BOX_6
+  - first:
+      213: 4181569741037190510
+    second: BOX_7
+  - first:
+      213: -7549951828009095668
+    second: BOX_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -79,7 +88,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 64
+    maxTextureSize: 128
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -91,7 +100,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 64
+    maxTextureSize: 128
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -103,7 +112,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: iPhone
-    maxTextureSize: 64
+    maxTextureSize: 128
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -115,7 +124,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
-    maxTextureSize: 64
+    maxTextureSize: 128
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -134,8 +143,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 32
-        width: 24
-        height: 16
+        width: 20
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,10 +162,10 @@ TextureImporter:
       name: BOX_1
       rect:
         serializedVersion: 2
-        x: 24
+        x: 21
         y: 32
-        width: 24
-        height: 16
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,10 +183,10 @@ TextureImporter:
       name: BOX_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 16
-        width: 24
-        height: 16
+        x: 36
+        y: 32
+        width: 17
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,10 +204,10 @@ TextureImporter:
       name: BOX_3
       rect:
         serializedVersion: 2
-        x: 24
+        x: 0
         y: 16
-        width: 24
-        height: 16
+        width: 20
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,10 +225,10 @@ TextureImporter:
       name: BOX_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 24
-        height: 16
+        x: 21
+        y: 16
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,10 +246,10 @@ TextureImporter:
       name: BOX_5
       rect:
         serializedVersion: 2
-        x: 24
-        y: 0
-        width: 24
-        height: 16
+        x: 36
+        y: 16
+        width: 17
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,6 +259,69 @@ TextureImporter:
       bones: []
       spriteID: 957925a0ed8875eb0800000000000000
       internalID: -4731162396292114599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOX_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d3a6cf9349471f0800000000000000
+      internalID: -1048049836501615307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOX_7
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 0
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d3b0a468be70a30800000000000000
+      internalID: 4181569741037190510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOX_8
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 0
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ee43450de293790800000000000000
+      internalID: -7549951828009095668
       vertices: []
       indices: 
       edges: []
