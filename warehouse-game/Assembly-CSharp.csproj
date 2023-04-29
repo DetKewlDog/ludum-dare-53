@@ -37,6 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Box.cs" />
+     <Compile Include="Assets\BoxKiller.cs" />
      <Compile Include="Assets\Scripts\ConveyorBelt.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
     <Reference Include="UnityEngine">
