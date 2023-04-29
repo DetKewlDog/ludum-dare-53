@@ -10,7 +10,6 @@ public class ConveyorBelt : MonoBehaviour
 
     private void Start() => rb = GetComponent<Rigidbody2D>();
 
-    // Update is called once per frame
     private void FixedUpdate() {
         if (!IsActive) return;
         originalPos = pos = rb.position;
