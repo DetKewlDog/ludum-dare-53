@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour
 
     public GameObject boxPrefab;
     public Vector2[] boxPositions;
+    public int score = 0;
 
     private void Awake() {
         instance = this;
@@ -13,9 +14,16 @@ public class GameManager : MonoBehaviour
     }
 
     private void SpawnBox() {
-        if (Random.value >= 0.1f) return;
+        if (Random.value >= 0.05f) return;
         Instantiate(boxPrefab, boxPositions[Random.Range(0, 3)], Quaternion.identity);
     }
 
-    public void BoxDestroyed() => print("L BOZO YOUR BOX FELL OFF");
+    public void BoxDestroyed() {
+        score--;
+        print(score);
+    }
+    public void BoxDelivered() {
+        score += 10;
+        print(score);
+    }
 }
