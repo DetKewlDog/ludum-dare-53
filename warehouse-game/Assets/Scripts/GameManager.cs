@@ -37,4 +37,10 @@ public class GameManager : MonoBehaviour
         GameOverScreen.SetActive(true);
         Time.timeScale = 0;
     }
+
+    public void PlaySound(AudioClip audioClip) {
+        AudioSource audioSource = GameManager.instance.GetComponent<AudioSource>();
+        audioSource.clip = audioClip;
+        audioSource.Play();
+    }
 }

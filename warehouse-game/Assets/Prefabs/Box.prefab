@@ -121,6 +121,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsBeingDragged: 0
   LandSFX: {fileID: 8300000, guid: 842597fb8d33ae3448a3846dfee42652, type: 3}
+  ThrowSFX: {fileID: 8300000, guid: c3a7582c3f665f847bac293b89516319, type: 3}
+  PickSFX: {fileID: 8300000, guid: 900ffbf6dd18d23498bb958032864a6e, type: 3}
+  DropSFX: {fileID: 8300000, guid: 41071941014f63746b77d4ba2ae9dd6d, type: 3}
   canPlaySFX: 0
   ParticlePrefab: {fileID: 5061793778244888387, guid: 84af96fdcd70eac49abc53f78d02c5a1,
     type: 3}
