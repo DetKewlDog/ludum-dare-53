@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1465198683176877666}
   - component: {fileID: 6526213131586684328}
   - component: {fileID: 4352438469763072086}
+  - component: {fileID: 8755081101875901311}
   m_Layer: 0
   m_Name: Box
   m_TagString: Box
@@ -28,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1465198683176877667}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -120,18 +121,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsBeingDragged: 0
   boxVariants:
-  - boxColor: 1
-    sprites:
+  - sprites:
     - {fileID: -1128826867356018621, guid: 976f2ff7aaf271d429b184c31455e7b5, type: 3}
     - {fileID: 7737963559680658205, guid: 976f2ff7aaf271d429b184c31455e7b5, type: 3}
     - {fileID: -1048049836501615307, guid: 976f2ff7aaf271d429b184c31455e7b5, type: 3}
-  - boxColor: 0
-    sprites:
+  - sprites:
     - {fileID: 8641998704053636573, guid: 976f2ff7aaf271d429b184c31455e7b5, type: 3}
     - {fileID: 6014798273546916462, guid: 976f2ff7aaf271d429b184c31455e7b5, type: 3}
     - {fileID: 4181569741037190510, guid: 976f2ff7aaf271d429b184c31455e7b5, type: 3}
-  - boxColor: 2
-    sprites:
+  - sprites:
     - {fileID: -6905359134655824583, guid: 976f2ff7aaf271d429b184c31455e7b5, type: 3}
     - {fileID: -4731162396292114599, guid: 976f2ff7aaf271d429b184c31455e7b5, type: 3}
     - {fileID: -7549951828009095668, guid: 976f2ff7aaf271d429b184c31455e7b5, type: 3}
@@ -157,7 +155,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.0625, y: 0.8125}
+    oldSize: {x: 1.1875, y: 0.9375}
     newSize: {x: 1.5, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -166,3 +164,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &8755081101875901311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1465198683176877667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20f76f21e9d47294d8b9b11659a6303c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

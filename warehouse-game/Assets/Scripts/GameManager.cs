@@ -25,7 +25,7 @@ public class GameManager : MonoBehaviour
         print(score);
     }
     public void BoxDelivered() {
-        score += 10;
+        score++;
         print(score);
     }
 }

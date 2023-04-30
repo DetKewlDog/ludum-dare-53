@@ -22,5 +22,5 @@ public class DraggableObject : MonoBehaviour
         originalPos = rb.position;
         IsBeingDragged = true;
     }
-    private void OnMouseUp() => IsBeingDragged = false;
+    private void OnMouseUp() => IsBeingDragged = true;
 }
