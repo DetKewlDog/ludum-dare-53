@@ -15,7 +15,7 @@ PlayerSettings:
   companyName: AutumnFire
   productName: BeWarehouse
   defaultCursor: {fileID: 0}
-  cursorHotspot: {x: 5, y: 5}
+  cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.08235294, g: 0.08235294, b: 0.08235294, a: 1}
   m_ShowUnitySplashScreen: 1
   m_ShowUnitySplashLogo: 1
