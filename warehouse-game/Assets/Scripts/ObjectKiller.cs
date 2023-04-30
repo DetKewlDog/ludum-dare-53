@@ -5,6 +5,7 @@ public class ObjectKiller : MonoBehaviour
     public enum KillerType { Score, Kill, Mailbox }
     public KillerType killerType;
     public Box.BoxColor boxColor;
+    public bool DecreaseScore = true;
 
     private GameManager gameManager;
     void Start() {
@@ -23,7 +24,7 @@ public class ObjectKiller : MonoBehaviour
         var box = other.GetComponent<Box>();
         if (killerType == KillerType.Kill || box.boxColor != boxColor) {
             if (killerType == KillerType.Kill) box.canPlaySFX = true;
-            gameManager.BoxDestroyed();
+            if (DecreaseScore) gameManager.BoxDestroyed();
         }
         else gameManager.BoxDelivered();
         if (killerType != KillerType.Mailbox) Destroy(other.gameObject);

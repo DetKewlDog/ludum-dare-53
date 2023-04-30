@@ -883,6 +883,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   killerType: 1
   boxColor: 0
+  DecreaseScore: 0
 --- !u!1 &414398168
 GameObject:
   m_ObjectHideFlags: 0
@@ -1969,6 +1970,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   killerType: 0
   boxColor: 0
+  DecreaseScore: 1
 --- !u!61 &988705574
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2927,6 +2929,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   killerType: 0
   boxColor: 0
+  DecreaseScore: 1
 --- !u!61 &1682440182
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3607,6 +3610,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   killerType: 0
   boxColor: 2
+  DecreaseScore: 1
 --- !u!61 &2076962332
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3835,6 +3839,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   killerType: 0
   boxColor: 1
+  DecreaseScore: 1
 --- !u!61 &2100009888
 BoxCollider2D:
   m_ObjectHideFlags: 0
