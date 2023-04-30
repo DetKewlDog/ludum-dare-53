@@ -10,6 +10,8 @@ public class GameManager : MonoBehaviour
     public int score = 0;
     Vector2 pos;
     public UnityEngine.UI.Text scoreText;
+    public GameObject GameOverScreen;
+    public GameObject[] disableOnGameover;
 
     private void Awake() {
         instance = this;
@@ -26,5 +28,11 @@ public class GameManager : MonoBehaviour
     void UpdateScore(int score) {
         score = this.score = Mathf.Max(0, score);
         scoreText.text = $"Score: {score}";
+    }
+
+    public void GameOver() {
+        foreach (var go in disableOnGameover) go.SetActive(false);
+        GameOverScreen.SetActive(true);
+        Time.timeScale = 0;
     }
 }
