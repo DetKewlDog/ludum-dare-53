@@ -588,6 +588,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boxPrefab: {fileID: 1465198683176877667, guid: 63569949c3d01874b967200d2f2023cb,
     type: 3}
+  pipeBombPrefab: {fileID: 1465198683176877667, guid: cd833acd6143987488672f02c7635400,
+    type: 3}
   boxPositions:
   - {x: -11, y: 4}
   - {x: -11, y: 1}

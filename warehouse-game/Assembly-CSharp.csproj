@@ -36,10 +36,12 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Box.cs" />
-     <Compile Include="Assets\BoxKiller.cs" />
-     <Compile Include="Assets\CursorHandler.cs" />
+     <Compile Include="Assets\PipeBomb.cs" />
+     <Compile Include="Assets\Scripts\Box.cs" />
+     <Compile Include="Assets\Scripts\BoxKiller.cs" />
      <Compile Include="Assets\Scripts\ConveyorBelt.cs" />
+     <Compile Include="Assets\Scripts\CursorHandler.cs" />
+     <Compile Include="Assets\Scripts\DraggableObject.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
     <Reference Include="UnityEngine">
         <HintPath>E:/INSTALLATIONS/Unity Editors/2019.4.24f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
