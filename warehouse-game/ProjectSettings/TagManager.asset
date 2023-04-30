@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Box
   - Cursor
+  - PipeBomb
   layers:
   - Default
   - TransparentFX

@@ -3,6 +3,8 @@ using UnityEngine.EventSystems;
 
 public class DraggableObject : MonoBehaviour
 {
+    public bool IsBeingDragged = false;
+
     protected Camera cam;
     protected Rigidbody2D rb;
     protected Vector3 mousePos, originalMousePos, originalPos;
@@ -18,5 +20,7 @@ public class DraggableObject : MonoBehaviour
     private void OnMouseDown() {
         originalMousePos = cam.ScreenToWorldPoint(Input.mousePosition);
         originalPos = rb.position;
+        IsBeingDragged = true;
     }
+    private void OnMouseUp() => IsBeingDragged = false;
 }

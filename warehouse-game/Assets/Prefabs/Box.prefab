@@ -118,13 +118,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6cd6fedd60142c47be189d51d0b5a66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsBeingDragged: 0
   boxVariants:
-  - boxColor: 0
+  - boxColor: 1
     sprites:
     - {fileID: -1128826867356018621, guid: 976f2ff7aaf271d429b184c31455e7b5, type: 3}
     - {fileID: 7737963559680658205, guid: 976f2ff7aaf271d429b184c31455e7b5, type: 3}
     - {fileID: -1048049836501615307, guid: 976f2ff7aaf271d429b184c31455e7b5, type: 3}
-  - boxColor: 1
+  - boxColor: 0
     sprites:
     - {fileID: 8641998704053636573, guid: 976f2ff7aaf271d429b184c31455e7b5, type: 3}
     - {fileID: 6014798273546916462, guid: 976f2ff7aaf271d429b184c31455e7b5, type: 3}
