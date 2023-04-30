@@ -121,6 +121,87 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &14463884
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 14463885}
+  - component: {fileID: 14463886}
+  m_Layer: 0
+  m_Name: Hider (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &14463885
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14463884}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -6.6, z: 0}
+  m_LocalScale: {x: 28, y: 2, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1940553675}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &14463886
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14463884}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 20
+  m_Sprite: {fileID: 21300000, guid: 7e9c8e98d5b25804dac2dadb134e60b0, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.0625, y: 0.0625}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &19921391
 GameObject:
   m_ObjectHideFlags: 0
@@ -620,6 +701,7 @@ Transform:
   - {fileID: 1041662537}
   - {fileID: 861961486}
   - {fileID: 704936718}
+  - {fileID: 1940553675}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -719,6 +801,87 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &152401911
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 152401912}
+  - component: {fileID: 152401913}
+  m_Layer: 0
+  m_Name: Hider (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &152401912
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 152401911}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 6.6, z: 0}
+  m_LocalScale: {x: 28, y: 2, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1940553675}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &152401913
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 152401911}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 20
+  m_Sprite: {fileID: 21300000, guid: 7e9c8e98d5b25804dac2dadb134e60b0, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.0625, y: 0.0625}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &157463008
 GameObject:
   m_ObjectHideFlags: 0
@@ -807,6 +970,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1773729589}
     m_Modifications:
+    - target: {fileID: 7277989313075247896, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8908913469901986680, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
         type: 3}
       propertyPath: m_FlipX
@@ -820,7 +988,7 @@ PrefabInstance:
     - target: {fileID: 8908913469901986686, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
         type: 3}
       propertyPath: Speed
-      value: -2.5
+      value: -1.1
       objectReference: {fileID: 0}
     - target: {fileID: 8908913469901986687, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
         type: 3}
@@ -1336,6 +1504,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7277989313075247896, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
         type: 3}
+      propertyPath: m_Size.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7277989313075247896, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
+        type: 3}
       propertyPath: m_Size.y
       value: 0.6
       objectReference: {fileID: 0}
@@ -1343,6 +1516,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ConveyorBelt (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8908913469901986686, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
+        type: 3}
+      propertyPath: Speed
+      value: 1.15
       objectReference: {fileID: 0}
     - target: {fileID: 8908913469901986687, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
         type: 3}
@@ -1483,6 +1661,87 @@ SpriteRenderer:
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.05, y: 1.41}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &468605752
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 468605753}
+  - component: {fileID: 468605754}
+  m_Layer: 0
+  m_Name: Hider (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &468605753
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 468605752}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 12, y: 0, z: 0}
+  m_LocalScale: {x: 4, y: 12.5, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1940553675}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &468605754
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 468605752}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 20
+  m_Sprite: {fileID: 21300000, guid: 7e9c8e98d5b25804dac2dadb134e60b0, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.0625, y: 0.0625}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1661,6 +1920,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1773729589}
     m_Modifications:
+    - target: {fileID: 7277989313075247896, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8908913469901986680, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
         type: 3}
       propertyPath: m_FlipX
@@ -1674,7 +1938,7 @@ PrefabInstance:
     - target: {fileID: 8908913469901986686, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
         type: 3}
       propertyPath: Speed
-      value: -2.5
+      value: -1.1
       objectReference: {fileID: 0}
     - target: {fileID: 8908913469901986687, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
         type: 3}
@@ -2369,10 +2633,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1773729589}
     m_Modifications:
+    - target: {fileID: 7277989313075247896, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8908913469901986682, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
         type: 3}
       propertyPath: m_Name
       value: ConveyorBelt (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8908913469901986686, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
+        type: 3}
+      propertyPath: Speed
+      value: 1.15
       objectReference: {fileID: 0}
     - target: {fileID: 8908913469901986687, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
         type: 3}
@@ -2767,6 +3041,87 @@ Transform:
   m_Father: {fileID: 147040646}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &983733994
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 983733995}
+  - component: {fileID: 983733996}
+  m_Layer: 0
+  m_Name: Hider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &983733995
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 983733994}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -12, y: 0, z: 0}
+  m_LocalScale: {x: 4, y: 12.5, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1940553675}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &983733996
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 983733994}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 20
+  m_Sprite: {fileID: 21300000, guid: 7e9c8e98d5b25804dac2dadb134e60b0, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.0625, y: 0.0625}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1041662536
 GameObject:
   m_ObjectHideFlags: 0
@@ -3319,7 +3674,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1313967327}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12, y: 0, z: 0}
+  m_LocalPosition: {x: -12.5, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 959484008}
@@ -3741,10 +4096,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1773729589}
     m_Modifications:
+    - target: {fileID: 7277989313075247896, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8908913469901986682, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
         type: 3}
       propertyPath: m_Name
       value: ConveyorBelt (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8908913469901986686, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
+        type: 3}
+      propertyPath: Speed
+      value: 1.15
       objectReference: {fileID: 0}
     - target: {fileID: 8908913469901986687, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
         type: 3}
@@ -3818,6 +4183,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7277989313075247896, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
         type: 3}
+      propertyPath: m_Size.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7277989313075247896, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
+        type: 3}
       propertyPath: m_Size.y
       value: 0.6
       objectReference: {fileID: 0}
@@ -3825,6 +4195,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ConveyorBelt (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8908913469901986686, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
+        type: 3}
+      propertyPath: Speed
+      value: 1.15
       objectReference: {fileID: 0}
     - target: {fileID: 8908913469901986687, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
         type: 3}
@@ -3896,10 +4271,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1773729589}
     m_Modifications:
+    - target: {fileID: 7277989313075247896, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8908913469901986682, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
         type: 3}
       propertyPath: m_Name
       value: ConveyorBelt (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8908913469901986686, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
+        type: 3}
+      propertyPath: Speed
+      value: 1.15
       objectReference: {fileID: 0}
     - target: {fileID: 8908913469901986687, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
         type: 3}
@@ -3971,6 +4356,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1773729589}
     m_Modifications:
+    - target: {fileID: 7277989313075247896, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8908913469901986680, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
         type: 3}
       propertyPath: m_FlipX
@@ -3984,7 +4374,7 @@ PrefabInstance:
     - target: {fileID: 8908913469901986686, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
         type: 3}
       propertyPath: Speed
-      value: -2.5
+      value: -1.1
       objectReference: {fileID: 0}
     - target: {fileID: 8908913469901986687, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
         type: 3}
@@ -4243,6 +4633,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7277989313075247896, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
         type: 3}
+      propertyPath: m_Size.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7277989313075247896, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
+        type: 3}
       propertyPath: m_Size.y
       value: 0.6
       objectReference: {fileID: 0}
@@ -4250,6 +4645,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ConveyorBelt (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8908913469901986686, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
+        type: 3}
+      propertyPath: Speed
+      value: 1.15
       objectReference: {fileID: 0}
     - target: {fileID: 8908913469901986687, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
         type: 3}
@@ -4584,7 +4984,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1855450737}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12, y: 0, z: 0}
+  m_LocalPosition: {x: 12.5, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 959484008}
@@ -4637,6 +5037,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1773729589}
     m_Modifications:
+    - target: {fileID: 7277989313075247896, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8908913469901986680, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
         type: 3}
       propertyPath: m_FlipX
@@ -4650,7 +5055,7 @@ PrefabInstance:
     - target: {fileID: 8908913469901986686, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
         type: 3}
       propertyPath: Speed
-      value: -2.5
+      value: -1.1
       objectReference: {fileID: 0}
     - target: {fileID: 8908913469901986687, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
         type: 3}
@@ -4722,10 +5127,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1773729589}
     m_Modifications:
+    - target: {fileID: 7277989313075247896, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8908913469901986682, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
         type: 3}
       propertyPath: m_Name
       value: ConveyorBelt (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8908913469901986686, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
+        type: 3}
+      propertyPath: Speed
+      value: 1.15
       objectReference: {fileID: 0}
     - target: {fileID: 8908913469901986687, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
         type: 3}
@@ -5255,6 +5670,40 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 14}
   m_EdgeRadius: 0
+--- !u!1 &1940553674
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1940553675}
+  m_Layer: 0
+  m_Name: Hiders
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1940553675
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940553674}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 983733995}
+  - {fileID: 468605753}
+  - {fileID: 152401912}
+  - {fileID: 14463885}
+  m_Father: {fileID: 147040646}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1958603519
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5264,6 +5713,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7277989313075247896, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
         type: 3}
+      propertyPath: m_Size.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7277989313075247896, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
+        type: 3}
       propertyPath: m_Size.y
       value: 0.6
       objectReference: {fileID: 0}
@@ -5271,6 +5725,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ConveyorBelt (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8908913469901986686, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
+        type: 3}
+      propertyPath: Speed
+      value: 1.15
       objectReference: {fileID: 0}
     - target: {fileID: 8908913469901986687, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
         type: 3}
@@ -5500,7 +5959,7 @@ PrefabInstance:
     - target: {fileID: 8908913469901986686, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
         type: 3}
       propertyPath: Speed
-      value: -2.5
+      value: -1.1
       objectReference: {fileID: 0}
     - target: {fileID: 8908913469901986687, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
         type: 3}
@@ -5802,6 +6261,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7277989313075247896, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
         type: 3}
+      propertyPath: m_Size.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7277989313075247896, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
+        type: 3}
       propertyPath: m_Size.y
       value: 0.6
       objectReference: {fileID: 0}
@@ -5809,6 +6273,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ConveyorBelt (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8908913469901986686, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
+        type: 3}
+      propertyPath: Speed
+      value: 1.15
       objectReference: {fileID: 0}
     - target: {fileID: 8908913469901986687, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
         type: 3}
@@ -6109,10 +6578,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1773729589}
     m_Modifications:
+    - target: {fileID: 7277989313075247896, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8908913469901986682, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
         type: 3}
       propertyPath: m_Name
       value: ConveyorBelt
+      objectReference: {fileID: 0}
+    - target: {fileID: 8908913469901986686, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
+        type: 3}
+      propertyPath: Speed
+      value: 1.15
       objectReference: {fileID: 0}
     - target: {fileID: 8908913469901986687, guid: 403ae7ec3ae0bfa4c90559aeb9852dad,
         type: 3}

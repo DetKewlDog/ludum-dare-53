@@ -20,7 +20,7 @@ public class DraggableObject : MonoBehaviour
         outlineObject = GetComponent<OutlineObject>();
     }
 
-    protected void Start() => cam = Camera.main;
+    protected virtual void Start() => cam = Camera.main;
     protected void OnMouseDrag() {
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition) - originalMousePos;
         rb.velocity = (originalPos + mousePos - rb.transform.position) * 300 * Time.deltaTime;
