@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
     public GameObject boxPrefab;
     public GameObject pipeBombPrefab;
     public Vector2[] boxPositions;
+    public float StartChance = 0.05f, MaxChance = 0.2f;
     public int score = 0;
     Vector2 pos;
     public UnityEngine.UI.Text scoreText;
@@ -19,7 +20,7 @@ public class GameManager : MonoBehaviour
     }
 
     private void SpawnObject() {
-        if (Random.value >= 0.05f + Time.timeSinceLevelLoad / 1000) return;
+        if (Random.value >= Mathf.Min(StartChance + Time.timeSinceLevelLoad / 1000, MaxChance)) return;
         Instantiate(Random.value >= 0.2f ? boxPrefab : pipeBombPrefab, boxPositions[Random.Range(0, 3)], Quaternion.identity);
     }
 
