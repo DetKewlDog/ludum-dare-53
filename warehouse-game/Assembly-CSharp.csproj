@@ -48,8 +48,8 @@
      <Compile Include="Assets\Scripts\PipeBomb.cs" />
      <Compile Include="Assets\Scripts\QuitGame.cs" />
      <Compile Include="Assets\Scripts\ReloadScene.cs" />
-     <Compile Include="Assets\SocailLink.cs" />
-     <Compile Include="Assets\VersionText.cs" />
+     <Compile Include="Assets\Scripts\SocailLink.cs" />
+     <Compile Include="Assets\Scripts\VersionText.cs" />
      <None Include="Assets\Resources\OutlineShader.shader" />
     <Reference Include="UnityEngine">
         <HintPath>E:/INSTALLATIONS/Unity Editors/2019.4.24f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
