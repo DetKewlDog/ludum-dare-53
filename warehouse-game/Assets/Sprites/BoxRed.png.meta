@@ -1,13 +1,43 @@
 fileFormatVersion: 2
-guid: 1c80943249a553c45b118e00684d2683
+guid: 4ea8fe2703e49414988d59baa812d8ef
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5226576657396428622
-    second: PipeBomb_0
+      213: -1128826867356018621
+    second: BOX_0
   - first:
-      213: -723995177807875627
-    second: PipeBomb_1
+      213: 8641998704053636573
+    second: BOX_1
+  - first:
+      213: -6905359134655824583
+    second: BOX_2
+  - first:
+      213: 7737963559680658205
+    second: BOX_3
+  - first:
+      213: 6014798273546916462
+    second: BOX_4
+  - first:
+      213: -4731162396292114599
+    second: BOX_5
+  - first:
+      213: -1048049836501615307
+    second: BOX_6
+  - first:
+      213: 4181569741037190510
+    second: BOX_7
+  - first:
+      213: -7549951828009095668
+    second: BOX_8
+  - first:
+      213: 2219352766959987201
+    second: BoxRed_0
+  - first:
+      213: 1128807264348328638
+    second: BoxRed_1
+  - first:
+      213: 237652620881015353
+    second: BoxRed_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -67,7 +97,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 64
+    maxTextureSize: 128
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -79,7 +109,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 64
+    maxTextureSize: 128
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -91,7 +121,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: iPhone
-    maxTextureSize: 64
+    maxTextureSize: 128
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -103,7 +133,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
-    maxTextureSize: 64
+    maxTextureSize: 128
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -117,43 +147,64 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PipeBomb_0
+      name: BoxRed_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 11
-        width: 23
-        height: 11
+        y: 0
+        width: 24
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b09980c8387777b0800000000000000
-      internalID: -5226576657396428622
+      spriteID: 10a2ee93599bcce10800000000000000
+      internalID: 2219352766959987201
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PipeBomb_1
+      name: BoxRed_1
       rect:
         serializedVersion: 2
-        x: 0
+        x: 24
         y: 0
-        width: 23
-        height: 11
+        width: 18
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d17aafb83ad3f5f0800000000000000
-      internalID: -723995177807875627
+      spriteID: eb2dc5be9345aaf00800000000000000
+      internalID: 1128807264348328638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoxRed_2
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 0
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 932bd8faccf4c4300800000000000000
+      internalID: 237652620881015353
       vertices: []
       indices: 
       edges: []

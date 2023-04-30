@@ -23,5 +23,8 @@ public class GameManager : MonoBehaviour
 
     public void BoxDestroyed() => UpdateScore(--score);
     public void BoxDelivered() => UpdateScore(++score);
-    void UpdateScore(int score) => scoreText.text = $"Score: {score}";
+    void UpdateScore(int score) {
+        score = Mathf.Max(0, score);
+        scoreText.text = $"Score: {score}";
+    }
 }

@@ -29,6 +29,15 @@ TextureImporter:
   - first:
       213: -7549951828009095668
     second: BOX_8
+  - first:
+      213: 7646733123509831150
+    second: BoxYellow_0
+  - first:
+      213: 8171245780063352661
+    second: BoxYellow_1
+  - first:
+      213: -3937554886835233513
+    second: BoxYellow_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -138,190 +147,64 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BOX_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 34
-        width: 22
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 348d356e1f99550f0800000000000000
-      internalID: -1128826867356018621
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BOX_1
-      rect:
-        serializedVersion: 2
-        x: 22
-        y: 34
-        width: 16
-        height: 17
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dddc088b80c8ee770800000000000000
-      internalID: 8641998704053636573
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BOX_2
-      rect:
-        serializedVersion: 2
-        x: 38
-        y: 34
-        width: 19
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 93d3754047c3b20a0800000000000000
-      internalID: -6905359134655824583
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BOX_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 17
-        width: 22
-        height: 17
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d1bceab2cd4c26b60800000000000000
-      internalID: 7737963559680658205
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BOX_4
-      rect:
-        serializedVersion: 2
-        x: 22
-        y: 17
-        width: 16
-        height: 17
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e62956a792bd87350800000000000000
-      internalID: 6014798273546916462
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BOX_5
-      rect:
-        serializedVersion: 2
-        x: 38
-        y: 17
-        width: 19
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 957925a0ed8875eb0800000000000000
-      internalID: -4731162396292114599
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BOX_6
+      name: BoxYellow_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 22
-        height: 16
+        width: 24
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53d3a6cf9349471f0800000000000000
-      internalID: -1048049836501615307
+      spriteID: ee5440ff247ae1a60800000000000000
+      internalID: 7646733123509831150
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BOX_7
+      name: BoxYellow_1
       rect:
         serializedVersion: 2
-        x: 22
+        x: 24
         y: 0
-        width: 16
-        height: 17
+        width: 18
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6d3b0a468be70a30800000000000000
-      internalID: 4181569741037190510
+      spriteID: 557f51d6eb8166170800000000000000
+      internalID: 8171245780063352661
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BOX_8
+      name: BoxYellow_2
       rect:
         serializedVersion: 2
-        x: 38
+        x: 42
         y: 0
-        width: 19
-        height: 15
+        width: 21
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0ee43450de293790800000000000000
-      internalID: -7549951828009095668
+      spriteID: 71d159641befa59c0800000000000000
+      internalID: -3937554886835233513
       vertices: []
       indices: 
       edges: []
