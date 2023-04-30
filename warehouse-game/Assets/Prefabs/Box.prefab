@@ -122,7 +122,7 @@ MonoBehaviour:
   IsBeingDragged: 0
   LandSFX: {fileID: 8300000, guid: 842597fb8d33ae3448a3846dfee42652, type: 3}
   canPlaySFX: 0
-  ParticlePrefab: {fileID: 2857328548285885047, guid: de1277a266a68404aa2f768fb8420ef3,
+  ParticlePrefab: {fileID: 5061793778244888387, guid: 84af96fdcd70eac49abc53f78d02c5a1,
     type: 3}
   boxVariants:
   - sprites:
