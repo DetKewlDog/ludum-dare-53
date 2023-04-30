@@ -36,16 +36,18 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\DestroyAfterDelay.cs" />
-     <Compile Include="Assets\ReloadScene.cs" />
      <Compile Include="Assets\Scripts\Box.cs" />
      <Compile Include="Assets\Scripts\ConveyorBelt.cs" />
      <Compile Include="Assets\Scripts\CursorHandler.cs" />
+     <Compile Include="Assets\Scripts\DestroyAfterDelay.cs" />
      <Compile Include="Assets\Scripts\DraggableObject.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Scripts\LoadScene.cs" />
      <Compile Include="Assets\Scripts\ObjectKiller.cs" />
      <Compile Include="Assets\Scripts\OutlineObject.cs" />
      <Compile Include="Assets\Scripts\PipeBomb.cs" />
+     <Compile Include="Assets\Scripts\QuitGame.cs" />
+     <Compile Include="Assets\Scripts\ReloadScene.cs" />
      <None Include="Assets\Resources\OutlineShader.shader" />
     <Reference Include="UnityEngine">
         <HintPath>E:/INSTALLATIONS/Unity Editors/2019.4.24f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>

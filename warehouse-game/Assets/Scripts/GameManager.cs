@@ -26,11 +26,13 @@ public class GameManager : MonoBehaviour
     public void BoxDestroyed() => UpdateScore(--score);
     public void BoxDelivered() => UpdateScore(++score);
     void UpdateScore(int score) {
+        if (scoreText == null) return;
         score = this.score = Mathf.Max(0, score);
         scoreText.text = $"Score: {score}";
     }
 
     public void GameOver() {
+        if (GameOverScreen == null) return;
         foreach (var go in disableOnGameover) go.SetActive(false);
         GameOverScreen.SetActive(true);
         Time.timeScale = 0;
