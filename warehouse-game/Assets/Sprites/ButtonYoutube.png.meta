@@ -1,31 +1,16 @@
 fileFormatVersion: 2
-guid: 5e44d1691fc162945af54d743d92ec13
+guid: bc02ef24f9083a5498932ad83c595769
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6803873404882588446
-    second: Conveyor_0
+      213: -2815955210470325023
+    second: ButtonYoutube_0
   - first:
-      213: 6027523223127536178
-    second: Conveyor_1
+      213: -5590327367886742994
+    second: ButtonYoutube_1
   - first:
-      213: -1732287868377070896
-    second: Conveyor_2
-  - first:
-      213: -4025644675222363007
-    second: Conveyor_3
-  - first:
-      213: 3413917792567487076
-    second: Conveyor_4
-  - first:
-      213: -4789920915832460895
-    second: Conveyor_5
-  - first:
-      213: -8715313298101062840
-    second: Conveyor_6
-  - first:
-      213: 8774771162297685231
-    second: Conveyor_7
+      213: -849959242564246355
+    second: ButtonYoutube_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -85,7 +70,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 128
+    maxTextureSize: 64
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -97,7 +82,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 128
+    maxTextureSize: 64
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -109,7 +94,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: iPhone
-    maxTextureSize: 128
+    maxTextureSize: 64
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -121,7 +106,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
-    maxTextureSize: 128
+    maxTextureSize: 64
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -135,13 +120,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Conveyor_0
+      name: ButtonYoutube_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 112
-        width: 82
-        height: 16
+        y: 34
+        width: 20
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,20 +134,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1311c230d63c6e50800000000000000
-      internalID: 6803873404882588446
+      spriteID: 1e48188d7a7bbe8d0800000000000000
+      internalID: -2815955210470325023
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conveyor_1
+      name: ButtonYoutube_1
       rect:
         serializedVersion: 2
         x: 0
-        y: 96
-        width: 82
-        height: 16
+        y: 17
+        width: 20
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,125 +155,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2323fedaf6016a350800000000000000
-      internalID: 6027523223127536178
+      spriteID: e2a57f2b0ea2b62b0800000000000000
+      internalID: -5590327367886742994
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conveyor_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 80
-        width: 82
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0d28aac9c5da5f7e0800000000000000
-      internalID: -1732287868377070896
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Conveyor_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 64
-        width: 82
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 184ad652f790228c0800000000000000
-      internalID: -4025644675222363007
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Conveyor_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 48
-        width: 82
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 46aee56052ca06f20800000000000000
-      internalID: 3413917792567487076
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Conveyor_5
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 32
-        width: 82
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1a9a79d1e48c68db0800000000000000
-      internalID: -4789920915832460895
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Conveyor_6
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 16
-        width: 82
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 843b2782bbcfc0780800000000000000
-      internalID: -8715313298101062840
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Conveyor_7
+      name: ButtonYoutube_2
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 82
-        height: 16
+        width: 20
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -296,8 +176,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe45812a1ef36c970800000000000000
-      internalID: 8774771162297685231
+      spriteID: da4e56972965434f0800000000000000
+      internalID: -849959242564246355
       vertices: []
       indices: 
       edges: []

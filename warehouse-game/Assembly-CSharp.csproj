@@ -48,6 +48,8 @@
      <Compile Include="Assets\Scripts\PipeBomb.cs" />
      <Compile Include="Assets\Scripts\QuitGame.cs" />
      <Compile Include="Assets\Scripts\ReloadScene.cs" />
+     <Compile Include="Assets\SocailLink.cs" />
+     <Compile Include="Assets\VersionText.cs" />
      <None Include="Assets\Resources\OutlineShader.shader" />
     <Reference Include="UnityEngine">
         <HintPath>E:/INSTALLATIONS/Unity Editors/2019.4.24f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -586,6 +588,9 @@
     <Reference Include="Unity.Timeline.Editor">
         <HintPath>C:/Unity/ludum-dare-53/warehouse-game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Toolchain.Win-x86_64-Linux-x86_64">
+        <HintPath>C:/Unity/ludum-dare-53/warehouse-game/Library/ScriptAssemblies/Unity.Toolchain.Win-x86_64-Linux-x86_64.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.Animation.Runtime">
         <HintPath>C:/Unity/ludum-dare-53/warehouse-game/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
     </Reference>
@@ -619,6 +624,9 @@
     <Reference Include="Unity.CollabProxy.Editor">
         <HintPath>C:/Unity/ludum-dare-53/warehouse-game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+        <HintPath>C:/Unity/ludum-dare-53/warehouse-game/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Rider.Editor">
         <HintPath>C:/Unity/ludum-dare-53/warehouse-game/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
@@ -637,6 +645,9 @@
     <Reference Include="Unity.2D.Common.Runtime">
         <HintPath>C:/Unity/ludum-dare-53/warehouse-game/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+        <HintPath>C:/Unity/ludum-dare-53/warehouse-game/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
         <HintPath>C:/Unity/ludum-dare-53/warehouse-game/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
@@ -649,8 +660,14 @@
     <Reference Include="Unity.2D.Animation.Editor">
         <HintPath>C:/Unity/ludum-dare-53/warehouse-game/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Sysroot.Linux_x86_64">
+        <HintPath>C:/Unity/ludum-dare-53/warehouse-game/Library/ScriptAssemblies/Unity.Sysroot.Linux_x86_64.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Mathematics.Editor">
         <HintPath>C:/Unity/ludum-dare-53/warehouse-game/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.SysrootPackage.Editor">
+        <HintPath>C:/Unity/ludum-dare-53/warehouse-game/Library/ScriptAssemblies/Unity.SysrootPackage.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
         <HintPath>C:/Unity/ludum-dare-53/warehouse-game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
@@ -663,21 +680,6 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
         <HintPath>C:/Unity/ludum-dare-53/warehouse-game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Toolchain.Win-x86_64-Linux-x86_64">
-        <HintPath>C:/Unity/ludum-dare-53/warehouse-game/Library/ScriptAssemblies/Unity.Toolchain.Win-x86_64-Linux-x86_64.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Sysroot.Linux_x86_64">
-        <HintPath>C:/Unity/ludum-dare-53/warehouse-game/Library/ScriptAssemblies/Unity.Sysroot.Linux_x86_64.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.SysrootPackage.Editor">
-        <HintPath>C:/Unity/ludum-dare-53/warehouse-game/Library/ScriptAssemblies/Unity.SysrootPackage.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Editor">
-        <HintPath>C:/Unity/ludum-dare-53/warehouse-game/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Runtime">
-        <HintPath>C:/Unity/ludum-dare-53/warehouse-game/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
