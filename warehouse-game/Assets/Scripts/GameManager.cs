@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     public Vector2[] boxPositions;
     public int score = 0;
     Vector2 pos;
+    public UnityEngine.UI.Text scoreText;
 
     private void Awake() {
         instance = this;
@@ -20,12 +21,7 @@ public class GameManager : MonoBehaviour
         Instantiate(Random.value >= 0.1f ? boxPrefab : pipeBombPrefab, boxPositions[Random.Range(0, 3)], Quaternion.identity);
     }
 
-    public void BoxDestroyed() {
-        score--;
-        print(score);
-    }
-    public void BoxDelivered() {
-        score++;
-        print(score);
-    }
+    public void BoxDestroyed() => UpdateScore(--score);
+    public void BoxDelivered() => UpdateScore(++score);
+    void UpdateScore(int score) => scoreText.text = $"Score: {score}";
 }
