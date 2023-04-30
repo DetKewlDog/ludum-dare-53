@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SpriteAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 7e074a4c7bbd2f94d947b68ca79a0a81, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: -5226576657396428622, guid: 1c80943249a553c45b118e00684d2683, type: 3}
+  - {fileID: -723995177807875627, guid: 1c80943249a553c45b118e00684d2683, type: 3}
+  - {fileID: 21300000, guid: f487a024e9a2a8b49b5baea14fd7e2d0, type: 3}
+  - {fileID: 21300000, guid: 85a1e0c5d0f362b46b3cf9471b8133b3, type: 3}
+  - {fileID: 237652620881015353, guid: 4ea8fe2703e49414988d59baa812d8ef, type: 3}
+  - {fileID: 2219352766959987201, guid: 4ea8fe2703e49414988d59baa812d8ef, type: 3}
+  - {fileID: 1128807264348328638, guid: 4ea8fe2703e49414988d59baa812d8ef, type: 3}
+  - {fileID: -3937554886835233513, guid: 976f2ff7aaf271d429b184c31455e7b5, type: 3}
+  - {fileID: 8171245780063352661, guid: 976f2ff7aaf271d429b184c31455e7b5, type: 3}
+  - {fileID: 7646733123509831150, guid: 976f2ff7aaf271d429b184c31455e7b5, type: 3}
+  - {fileID: 21300000, guid: d43455197c84c704f9a6526a07f8246b, type: 3}
+  - {fileID: 21300000, guid: 5e44d1691fc162945af54d743d92ec13, type: 3}
+  - {fileID: 21300000, guid: 179872d9fea10934bbc83d1574e6c020, type: 3}
+  - {fileID: 1881565035919784029, guid: 3bc3e21a52139b6468fd61babb3ea919, type: 3}
+  - {fileID: 5625043587057951738, guid: 3bc3e21a52139b6468fd61babb3ea919, type: 3}
+  - {fileID: 5520993520397155217, guid: 3bc3e21a52139b6468fd61babb3ea919, type: 3}
+  - {fileID: 21300000, guid: 7931de3ba9cece34c86c3e5f2cd2c74d, type: 3}
+  - {fileID: 21300000, guid: d132743db501990489c0e6c2433dbdbf, type: 3}
+  - {fileID: 21300000, guid: a2fe9b2e4dc7b954290a4d4d26d57ae1, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - PipeBomb_0
+  - PipeBomb_1
+  - ExplosionParticle
+  - Cursor
+  - BoxRed_2
+  - BoxRed_0
+  - BoxRed_1
+  - BoxYellow_2
+  - BoxYellow_1
+  - BoxYellow_0
+  - Pole
+  - Conveyor
+  - Background
+  - BoxBlue_2
+  - BoxBlue_1
+  - BoxBlue_0
+  - PoleDest
+  - Icon
+  - Mailbox
+  m_Tag: SpriteAtlas
+  m_IsVariant: 0

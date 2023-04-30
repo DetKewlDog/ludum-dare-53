@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour
     }
 
     private void SpawnObject() {
-        if (Random.value >= 0.05f) return;
+        if (Random.value >= 0.05f + Time.timeSinceLevelLoad / 1000) return;
         Instantiate(Random.value >= 0.2f ? boxPrefab : pipeBombPrefab, boxPositions[Random.Range(0, 3)], Quaternion.identity);
     }
 
