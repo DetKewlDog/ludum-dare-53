@@ -74,16 +74,16 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -1048049836501615307, guid: 3bc3e21a52139b6468fd61babb3ea919,
+  m_Sprite: {fileID: 5520993520397155217, guid: 3bc3e21a52139b6468fd61babb3ea919,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.375, y: 1.0625}
+  m_Size: {x: 1.5, y: 1.1875}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!50 &1465198683176877666
@@ -120,6 +120,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsBeingDragged: 0
+  LandSFX: {fileID: 8300000, guid: 842597fb8d33ae3448a3846dfee42652, type: 3}
+  canPlaySFX: 0
+  ParticlePrefab: {fileID: 2857328548285885047, guid: de1277a266a68404aa2f768fb8420ef3,
+    type: 3}
   boxVariants:
   - sprites:
     - {fileID: 7646733123509831150, guid: 976f2ff7aaf271d429b184c31455e7b5, type: 3}
@@ -155,8 +159,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.375, y: 1.0625}
-    newSize: {x: 1.375, y: 1.0625}
+    oldSize: {x: 1.5, y: 1.1875}
+    newSize: {x: 1.5, y: 1.1875}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0

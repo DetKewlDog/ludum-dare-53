@@ -20,7 +20,11 @@ public class ObjectKiller : MonoBehaviour
         }
 
         if (!other.CompareTag("Box")) return;
-        if (killerType == KillerType.Kill || other.GetComponent<Box>().boxColor != boxColor) gameManager.BoxDestroyed();
+        var box = other.GetComponent<Box>();
+        if (killerType == KillerType.Kill || box.boxColor != boxColor) {
+            if (killerType == KillerType.Kill) box.canPlaySFX = true;
+            gameManager.BoxDestroyed();
+        }
         else gameManager.BoxDelivered();
         if (killerType != KillerType.Mailbox) Destroy(other.gameObject);
     }

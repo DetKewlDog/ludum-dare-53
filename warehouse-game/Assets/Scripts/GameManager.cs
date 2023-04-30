@@ -18,13 +18,13 @@ public class GameManager : MonoBehaviour
 
     private void SpawnObject() {
         if (Random.value >= 0.05f) return;
-        Instantiate(Random.value >= 0.1f ? boxPrefab : pipeBombPrefab, boxPositions[Random.Range(0, 3)], Quaternion.identity);
+        Instantiate(Random.value >= 0.2f ? boxPrefab : pipeBombPrefab, boxPositions[Random.Range(0, 3)], Quaternion.identity);
     }
 
     public void BoxDestroyed() => UpdateScore(--score);
     public void BoxDelivered() => UpdateScore(++score);
     void UpdateScore(int score) {
-        score = Mathf.Max(0, score);
+        score = this.score = Mathf.Max(0, score);
         scoreText.text = $"Score: {score}";
     }
 }
